@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "eh24905.todo",
+  "name": "Todo",
+  "version": "0.2.0",
+  "author": "eh24905",
+  "license": "MIT",
+  "description": "A todo list (Done, Next, Backlog) and scratch-pad notes, stored as todo.txt",
+  "kinds": [
+    "overlay",
+    "bar-widget"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "overlay": "Todo.qml",
+    "barWidget": "TodoBar.qml"
+  },
+  "barWidget": {
+    "displayName": "Todo",
+    "description": "Shows how many tasks are in Next and opens the todo window",
+    "category": "Productivity",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
